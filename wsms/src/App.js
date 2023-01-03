@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './CustomersDetails'
+import { useState } from "react";
+import CustomersDetails from './CustomersDetails';
+
 
 function App() {
+  const [tableData, setTableData] = useState([])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <div>
+        <h1 className='app'>
+          Customer Details
+        </h1>
+      </div>
+      <div>              
+        <center>
+          <CustomersDetails tableData={tableData}/>
+        </center>                
+      </div>      
     </div>
   );
 }

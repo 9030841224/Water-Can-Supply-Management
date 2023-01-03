@@ -1,0 +1,25 @@
+{
+    "CustomerDetails":[
+        { 
+            "CustomerName": "Tulasi", 
+            "Email": "tulasi1234@gmail.com", 
+            "PhoneNumber": "8901234567", 
+            "City": "BLR" ,
+            "IsActive": "Active"
+        },
+        { 
+            "CustomerName": "Raj", 
+            "Email": "Raj1234@gmail.com", 
+            "PhoneNumber": "9012345678", 
+            "City": "Hyd" ,
+            "IsActive": "Active"
+        },
+        { 
+            "CustomerName": "Sam", 
+            "Email": "Sam12341@gmail.com", 
+            "PhoneNumber": "1234567890", 
+            "City": "Pune" ,
+            "IsActive": "Inactive"
+        }
+    ]
+}
